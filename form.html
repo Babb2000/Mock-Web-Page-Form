@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id ="Login">Login Info</h1>
+    <form>
+      <hr />
+      <p>Username:
+        <input type="text" name="username" maxlength="30" placeholder="ex. babb360"/>
+      </p>
+      <p>Password:
+        <input type="password" name="password" maxlength="30" placeholder="@dehk3211kell12"/>
+      </p>
+    </form>
+    
+    <h2 id ="Tech">What technology do you use most often on a <em>daily</em> basis</h2>
+    <form>
+        <p><u>Select your answer here:</u>
+        <hr />
+        <br />
+        <input type="radio" name="genre" value="Cell phone"
+        checked="cheked"/>Cell phone
+        <input type="radio" name="genre" value="Computer"/>Computer
+        <input type="radio" name="genre" value= "Television"/> Television
+        </p>
+    </form>
+
+    <h3 id ="Language">Use the Checkbox down below:</h3>
+    <form>
+    <hr />
+      <p>Which programming language are easiest?
+      <input type="checkbox" name="languages" checked="checked" value="C++"/>C++
+      <input type="checkbox" name="languages" value="Python"/>Python
+      <input type="checkbox" name="languages" value="Html"/>Html... <!--Learn how to add a small image directly beside a Checkbox without altering the form-->
+      </p>
+    </form>
+    
+    <!--Using a list and nested lists to display information about a few programming language-->
+    <h4 id = "Info">Here is some <em>Free Info</em> about the previous programming languages: </h4>
+    <p><strong><u>Languages</u></strong></p>
+    <ul>
+      <li>C++</li>
+      <li>Python</li>
+      <li>Html
+          <ul>
+            <li>Html is better defined as a markup Language</li>  
+            <li>Instead of having typical functionality like object oriented languages </li>
+            <li>Html is responsible for adding context and structure to text displayed on a web browser</li>
+          </ul>
+      </li>
+    </ul>
+    <br />
+    <dl>
+      <dt><strong><u>C++</u></strong></dt>   
+      <dd>C++ is a programming language written by Barjne Stroustrup in 1979. Written as an extension to C, C++ offered<br>
+        object-oriented features with data hiding, static binding, and inheritance with low levels of abstraction. C++ makes<br>
+        programming in the real world more efficient by being able to write directly to low levels of hardware at run-time.
+      </dd>
+      <dt><strong><u>Python</u></strong></dt>
+      <dd>Developed in 1991 Python is a high level programming lanuage, developed on the basis of code readability. So for all<br>
+        of the people thinking about programming, you should highly consider this language to start out with. Python is actually one of<br>
+        the most popular programming languages today in the world. <i>Here is the difference in populating and displaying the contents of an<br>
+        array in <strong>C++</strong> vs <strong>Python</strong><br>
+        <u>C++</u>
+        <ul>
+          <li>int main()<br>
+              { <br>
+                  const int SIZE_ARRAY = 6; (Usally in C++ we declare constants as global but this is just an example)<br>
+                  int myArr[SIZE_ARRAY] = {1, 2, 3, 4, 5, 6};<br>
+
+                     for (int i = 0; i "less than" SIZE_ARRAY; i++) *(There should be an less than sign instead of the "less than", thanks html)<br>
+                  {<br>
+                      cout "less than/stream operator" (myArr[i]);  *(There should be an less than sign instead of the "less than", thanks html)<br>
+                  }
+                  
+                  return 0;<br>
+              }
+          </li>
+        </ul>
+        <u>Python</u>
+            <ul>
+              <li>
+                arr = [2,4,5,7,9]<br>
+                print("The Array is: ", arr)<br>
+              </li>   
+            </ul>
+    
+    <form action="form.html">
+     <p><strong>Please let me know if I should try to write c++ and python code within a Html document again:</strong> </p>
+     <textarea name="comments" cols ="10" rows="4">Bruh...</textarea>
+    </form>
+    <dt><strong><u>Html</u></strong></dt>
+    <dd>Finally Html is a Mark-up lanuage as previously stated which helps with the layout and structure of web pages. If <br>
+    you have ever used a word document the navigation bar at the top allows you to edit everything on your word document. In<br>
+    the same way Html lets you construct a certain <i>structure<i> and <i>layouut</i> to make your webpages more appealing. When<br>
+    you start to use other programming languages in conjunction with html you can make web pages interactive(javascript) and even<br>
+    create a database(SQL) to store large sets of data gathered on your webpage</dd>
+    </dl>
+    <h5>Before You leave!</h5>
+    <form action="form.html">
+    <p>Enter your email address below:
+      <input type="text" name="email"/>
+      <input type="submit" name="Subscribe" value ="Subcribe"/>
+    </p>
+    </form>
+
+    <p>Quick navigation bar to jump through sections of this page:
+    <hr />
+    <ol>
+      <li><a href="#Login">Login Info</a></li>
+      <li><a href="#Tech">Favorite Technology Item</a></li>
+      <li><a href="#Language">Easiest programming language</a></li>
+      <li><a href="#Info">Info about programming languages</a></li>
+    </ol>
+    </p>
+    <hr />
+
+    <h6><strong><u>Ok now this is the last thing</u></strong></h6>
+    <form action="form.html">
+        <p>Based on the <b>Html structure</b> of the page would you ever visit this webpage again?
+        <select name="answers">
+          <option value ="Yes">Of Course!</option>
+          <option value ="Maybe">There is a possibility</option>
+          <option value ="No">No.</option>
+        </select>
+        </p>
+    </form>
+</body>
+</html>
