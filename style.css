@@ -1,0 +1,22 @@
+/*Practicing using different selectors and classes keeping in mind the rules of cascade*/
+
+div{
+    border-style: ridge;
+    border: solid 3px gray;
+}
+
+#Login{
+    text-align: center;
+}
+
+#Tech{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+dt.larger{
+    font-size: x-large;
+}
