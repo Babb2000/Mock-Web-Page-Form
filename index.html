@@ -7,20 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
+<div class="center">
     <h1 id ="Login">Login Info</h1>
-    <form>
-      <hr />
+    <form class="center">
       <p>Username:
         <input type="text" name="username" maxlength="30" placeholder="ex. babb360"/>
       </p>
       <p>Password:
-        <input type="password" name="password" maxlength="30" placeholder="@dehk3211kell12"/>
+        <input type="password" name="password" maxlength="30" placeholder="@774H2for43lliop"/>
       </p>
     </form>
-    
+  </div>
+
+
+  <div>
     <h2 id ="Tech">What technology do you use most often on a <em>daily</em> basis</h2>
-    <form>
+    <form class="center">
         <p><u>Select your answer here:</u>
         <hr />
         <br />
@@ -30,7 +34,9 @@
         <input type="radio" name="genre" value= "Television"/> Television
         </p>
     </form>
+  </div>
 
+  <div>
     <h3 id ="Language">Use the Checkbox down below:</h3>
     <form>
     <hr />
@@ -40,9 +46,12 @@
       <input type="checkbox" name="languages" value="Html"/>Html... <!--Learn how to add a small image directly beside a Checkbox without altering the form-->
       </p>
     </form>
+    <hr />
+  </div>
     
+  <div>
     <!--Using a list and nested lists to display information about a few programming language-->
-    <h4 id = "Info">Here is some <em>Free Info</em> about the previous programming languages: </h4>
+    <h4 id = "Info" class="center">Here is some <em>Free Info</em> about the previous programming languages: </h4>
     <p><strong><u>Languages</u></strong></p>
     <ul>
       <li>C++</li>
@@ -57,12 +66,12 @@
     </ul>
     <br />
     <dl>
-      <dt><strong><u>C++</u></strong></dt>   
+      <dt class="larger"><strong><u>C++</u></strong></dt>   
       <dd>C++ is a programming language written by Barjne Stroustrup in 1979. Written as an extension to C, C++ offered<br>
         object-oriented features with data hiding, static binding, and inheritance with low levels of abstraction. C++ makes<br>
         programming in the real world more efficient by being able to write directly to low levels of hardware at run-time.
       </dd>
-      <dt><strong><u>Python</u></strong></dt>
+      <dt class="larger"><strong><u>Python</u></strong></dt>
       <dd>Developed in 1991 Python is a high level programming lanuage, developed on the basis of code readability. So for all<br>
         of the people thinking about programming, you should highly consider this language to start out with. Python is actually one of<br>
         the most popular programming languages today in the world. <i>Here is the difference in populating and displaying the contents of an<br>
@@ -90,18 +99,21 @@
                 print("The Array is: ", arr)<br>
               </li>   
             </ul>
-    
+  
     <form action="form.html">
      <p><strong>Please let me know if I should try to write c++ and python code within a Html document again:</strong> </p>
      <textarea name="comments" cols ="10" rows="4">Bruh...</textarea>
     </form>
-    <dt><strong><u>Html</u></strong></dt>
+    <dt class="larger"><strong><u>Html</u></strong></dt>
     <dd>Finally Html is a Mark-up lanuage as previously stated which helps with the layout and structure of web pages. If <br>
     you have ever used a word document the navigation bar at the top allows you to edit everything on your word document. In<br>
     the same way Html lets you construct a certain <i>structure<i> and <i>layouut</i> to make your webpages more appealing. When<br>
     you start to use other programming languages in conjunction with html you can make web pages interactive(javascript) and even<br>
     create a database(SQL) to store large sets of data gathered on your webpage</dd>
     </dl>
+  </div>
+
+  <div>
     <h5>Before You leave!</h5>
     <form action="form.html">
     <p>Enter your email address below:
@@ -109,7 +121,9 @@
       <input type="submit" name="Subscribe" value ="Subcribe"/>
     </p>
     </form>
+  </div>
 
+  <div>
     <p>Quick navigation bar to jump through sections of this page:
     <hr />
     <ol>
@@ -119,8 +133,9 @@
       <li><a href="#Info">Info about programming languages</a></li>
     </ol>
     </p>
-    <hr />
-
+  </div>
+  
+  <div>
     <h6><strong><u>Ok now this is the last thing</u></strong></h6>
     <form action="form.html">
         <p>Based on the <b>Html structure</b> of the page would you ever visit this webpage again?
@@ -131,5 +146,6 @@
         </select>
         </p>
     </form>
+  </div>
 </body>
 </html>
